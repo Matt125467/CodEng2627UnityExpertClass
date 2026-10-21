@@ -1,41 +1,13 @@
-# Unity generated files
-[Ll]ibrary/
-[Tt]emp/
-[Oo]bj/
-[Bb]uild/
-[Bb]uilds/
-[Ll]ogs/
-[Uu]ser[Ss]ettings/
+# Ignore everything in the project root...
+/*
 
-# IDE / generated project files
-.vs/
-*.csproj
-*.sln
-*.slnx
-*.user
-*.userprefs
-*.pidb
-*.booproj
+# ...except these
+!/Assets/
+!/.gitignore
 
-# Unity generated solution files
-*.pidb.meta
-*.pdb
-*.mdb
-
-# OS files
+# Still ignore junk that can end up inside Assets
 .DS_Store
 Thumbs.db
-
-# Rider
-.idea/
-
-# Visual Studio
-.vscode/
-
-# Crash reports
-sysinfo.txt
-
-# Build outputs
 *.apk
 *.aab
 *.unitypackage
